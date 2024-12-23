@@ -33,7 +33,7 @@ class SummaryReportClients extends ReportClients
         self::charts_build();
 
         $monthNames = ['total', 'january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december'];
-        $categories = ['activos' => 'active', 'inactivos' => 'inactive', 'clientes' => 'all'];
+        $categories = ['activos' => 'active', 'inactivos' => 'inactive', 'clientes' => 'all']; 
 
         $html = '<div class="table-responsive"><table class="table table-hover mb-0"><thead><tr><th class="title"><b>' . Tools::lang()->trans('status') . '</b></th>';
 
